@@ -1,0 +1,83 @@
+
+.header {
+    background-color: #242526;
+    padding: 0 1.3em;
+    display: grid;
+    grid-template-columns: 1fr 1.2fr 1fr;
+    border-bottom: 2px solid #393B3D;
+}
+
+.logo {
+    width: 120px;
+    padding-block: 1em 0.7em;
+}
+form{
+    padding-top: 0.4em;
+}
+.search-wrapper {
+    position: relative;
+    background-color: #3A3B3C;
+    border-radius: 25px;
+
+}
+
+.search-input {
+    padding: 1em 2.5em;
+    border: 0;
+    border-radius: 25px;
+    width: 100%;
+    color: #fff;
+    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath fill='rgb(171, 174, 178)' d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 0.6rem center;
+}
+.search-input:focus{
+    border: 0;
+    outline: 0;
+}
+.search-input::placeholder{
+    color: rgba(196, 198, 201, 0.836);
+    font-size: 15px;
+}
+
+ul {
+    margin: 0;
+    margin-right: -10px;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.user-menu-item{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #3A3B3C;
+    color: rgb(238, 238, 240);
+
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin: 0.3em;
+}
+.icon{
+    width: 100%;
+    font-size: 20px;
+    border-radius: 50%;
+
+}
+.user-menu-item{
+    position: relative;
+}
+.fa-bell{
+    font-size: 17px;
+    transform: rotate(-20deg);
+}
+.fa-chevron-down{
+    position: absolute;
+    top: 65%;
+    left: 65%;
+    border-radius: 50%;
+padding: 2px;
+    font-size: 11px;
+    background-color: #3A3B3C;
+}
