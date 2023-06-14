@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from './components/Header/Header';
-import Sidebar from './components/Sidebar';
+import Sidebar from './components/Sidebar/Sidebar';
 import NewsFeed from './components/NewsFeed';
 import Stories from './components/Stories';
 import Reels from './components/Reels';

@@ -20,7 +20,7 @@ const Header = () => {
           <i class="fa fa-bell icon" aria-hidden="true"></i>
         </li>
         <li className="user-menu-item">
-          <img className="icon avatar" src={avatar} alt="" />
+          <img className="icon" src={avatar} alt="" />
           <i className="fas fa-chevron-down"></i>
 
        </li>

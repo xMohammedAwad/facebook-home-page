@@ -12,7 +12,7 @@
     padding-block: 1em 0.7em;
 }
 form{
-    padding-top: 0.4em;
+    padding-top: 0.45em;
 }
 .search-wrapper {
     position: relative;
@@ -22,7 +22,7 @@ form{
 }
 
 .search-input {
-    padding: 1em 2.5em;
+    padding: 0.9em 2.5em;
     border: 0;
     border-radius: 25px;
     width: 100%;
@@ -36,6 +36,7 @@ form{
 .search-input::placeholder{
     color: rgba(196, 198, 201, 0.836);
     font-size: 15px;
+    font-weight: 400;
 }
 
 ul {
@@ -53,7 +54,7 @@ ul {
     border-radius: 50%;
     background-color: #3A3B3C;
     color: rgb(238, 238, 240);
-
+    position: relative;
     text-align: center;
     display: flex;
     align-items: center;
@@ -64,9 +65,6 @@ ul {
     font-size: 20px;
     border-radius: 50%;
 
-}
-.user-menu-item{
-    position: relative;
 }
 .fa-bell{
     font-size: 17px;
