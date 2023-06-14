@@ -1,4 +1,4 @@
-import logo from "/assets/facebook.png"
+import logo from "/assets/logo.png"
 import avatar from "/assets/avatar.jpg"
 import "./Header.css"
 const Header = () => {
