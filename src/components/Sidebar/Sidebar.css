@@ -1,6 +1,6 @@
 .sidebar {
     display: grid;
-    grid-template-rows: 0.35fr 0.75fr 0.75fr 1fr;
+    grid-template-rows: 0.35fr 0.35fr 0.35fr 0.35fr 1.5fr;
     height: 100vh;
     padding: 0 0.7em;
     background-color: #18191A;
@@ -14,7 +14,7 @@
     align-items: center;
     gap: 0.7em;
     text-decoration: none;
-    padding-block: 0.45em;
+    padding-block: 0em 0.45em;
     padding-inline: 0.3em 8em;
     border-radius: 10px;
     margin-bottom: 0.2em;
