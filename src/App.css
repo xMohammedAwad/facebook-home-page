@@ -2,9 +2,36 @@
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 500;
-    color: rgb(228, 230, 235);
 }
 
 body {
     margin: 0;
+    color: rgb(228, 230, 235);
+}
+.home-page{
+    padding: 0.1px;
+    background-color: #18191A;
+}
+.content-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 3.75em;
+    margin-left: 430px;
+  }
+  @media (max-width:850px){
+    .content-wrapper {
+        margin-left: 120px;
+      }
+    .chat-sidebar{
+        display: none;
+    }
+}
+@media (max-width:600px){
+    .content-wrapper {
+        margin-inline: 65px;
+        grid-template-columns: 1fr;
+      }
+    .chat-sidebar{
+        display: none;
+    }
 }

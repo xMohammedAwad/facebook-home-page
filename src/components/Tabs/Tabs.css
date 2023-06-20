@@ -1,0 +1,156 @@
+.tabs {
+    background-color: #242526;
+    margin-top: 1.5em;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.tab-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    gap: 0.5em;
+    padding-inline: 1em;
+}
+
+.tab {
+    padding-block: 1em;
+    margin-block: 0.3em;
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+
+}
+
+/* .tab:first-of-type{
+     margin-left: 1em; 
+} */
+.tab strong {
+    padding-left: 5px;
+}
+
+.tab:hover {
+    background-color: #3A3B3C;
+}
+
+.tab-list .active {
+    color: #2E89FF;
+    border-bottom: 2px solid #2E89FF;
+}
+
+.active:hover {
+    background-color: transparent;
+}
+
+.Stories-content,
+.ReelsContent-content {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 100%;
+    width: 100%;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.Stories-content::-webkit-scrollbar,
+.ReelsContent-content::-webkit-scrollbar {
+    display: none;
+}
+
+.avatar--rounded {
+    border: 3px solid #2E89FF;
+    width: 40px;
+    height: 40px;
+}
+
+.StoriesItem,
+.ReelsItem {
+    position: relative;
+    max-width: 115px;
+    height: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex; 
+    flex-direction: column;
+    flex: 0 0 auto;
+
+}
+
+.Stories-content:first-child {
+    border: 2px solid #2e2d2d;
+}
+
+.createReel {
+    background: url(/assets/creatReel.jpeg) 1% 100%;
+    background-size: cover;
+    width: 115px;
+
+}
+
+.StoriesItem__avatar {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.StoriesItem__main-img,
+.ReelsItem__main-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1);
+
+}
+.StoriesItem__main-img:hover,
+.ReelsItem__main-img:hover{
+    transform: scale(1.1);
+    transition: all 0.5;
+}
+
+.StoriesItem__user-name,
+.ReelsItem__views-number {
+    position: absolute;
+    z-index: 1;
+    bottom: 10px;
+    left: 10px;
+    font-size: 15px;
+}
+
+.overlay {
+    width: 1000%;
+    height: 100%;
+    background-color: #1f1e1e31;
+    position: absolute;
+}
+
+.overlay:hover {
+    background-color: #1f1e1e75;
+    cursor: pointer;
+}
+
+.CreateStory-img {
+    height: 75%;
+}
+
+.CreateStory-btn {
+    position: absolute;
+    z-index: 1;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    color: #fff;
+    background-color: #2E89FF;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 10px;
+    border: 3px solid #242526;
+}
+
+.fa-play {
+    padding-right: 3px;
+    font-size: 13px;
+}

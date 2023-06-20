@@ -1,7 +1,7 @@
 const ChatSidebar = () => {
   return (
     <div className="chat-sidebar">
-      {/* Chat sidebar content */}
+      ChatSidebar content
     </div>
   );
 };

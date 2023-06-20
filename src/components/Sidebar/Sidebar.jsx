@@ -12,12 +12,14 @@ const Sidebar = () => {
 
   const sidebarGroups = [
     {
+      title: 'Main',
       items: [
         { title: 'Home', icon: 'fa-home', id: '1', img: null },
-        { title: 'Muhmmad Awd', icon: null, id: '2', img: 'avatar.jpg' },
+        { title: 'Profile', icon: null, id: '2', img: 'avatar.jpg' },
       ],
     },
     {
+      title: 'Explore',
       items: [
         { title: 'Watch', img: 'watch.png', id: '3' },
         { title: 'Marketplace', img: 'store.png', id: '4' },
@@ -26,6 +28,7 @@ const Sidebar = () => {
       ],
     },
     {
+      title: 'Groups',
       items: [
         { title: 'Peeks', img: 'group-name.jpg', id: '7' },
         { title: 'Gaza Tech', img: 'group2.jpg', id: '8' },
@@ -33,12 +36,12 @@ const Sidebar = () => {
       ],
     },
     {
+      title: 'Shortcuts',
       items: [
         { title: 'See all shortcuts', icon: 'fa-link', id: '10' },
       ],
     },
   ];
-
 
   return (
     <div className="sidebar">
@@ -57,9 +60,10 @@ const Sidebar = () => {
           ))}
         </div>
       ))}
-      <div className="footer">
+      <div className="footer-wrapper">
         <Footer />
       </div>
+      <div className='temp'></div>
     </div>
   );
 };
