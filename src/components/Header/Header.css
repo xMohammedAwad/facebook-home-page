@@ -36,7 +36,7 @@ form{
     border: 0;
     outline: 0;
 }
-.search-input::placeholder{
+::placeholder{
     color: rgba(196, 198, 201, 0.836);
     font-size: 15px;
     font-weight: 400;
