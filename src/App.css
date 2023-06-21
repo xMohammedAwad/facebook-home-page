@@ -44,7 +44,7 @@ body {
 
 .content-wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1.125fr 1fr;
     margin-top: 3.75em;
     margin-left: 430px;
 }

@@ -1,0 +1,42 @@
+.chat-sidebar{
+    position: fixed;
+    right: 0;
+    padding-right: 20px;
+    overflow: auto;
+    height: 100vh;
+
+}
+.chat-sidebar::-webkit-scrollbar{
+    display: none;
+  }
+.chat-sidebar:hover::-webkit-scrollbar{
+  display: unset;
+}
+.birthdays__img{
+    margin-bottom: -7px;
+    padding-right: 10px;
+}
+.contacts .title{
+    display: flex;
+    justify-content: space-between;
+}
+.contacts-names{
+    margin-bottom: 80px;
+}
+.contacts__icons{
+    gap: 20px;
+    color:#ffffffa1
+}
+.have-story{
+    outline: 2px solid var(--blue);
+    padding: 2px;
+}
+.fa-edit-wrapper{
+    background-color: var(--black-100);
+    border-radius: 50%;
+    padding: 12px 15px;
+    position: absolute;
+    right: 7%;
+    bottom: -18%;
+    font-size: 18px;
+}

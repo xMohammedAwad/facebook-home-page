@@ -11,6 +11,8 @@
     text-align: center;
     gap: 0.5em;
     padding-inline: 1em;
+    color: #ffffffab
+
 }
 
 .tab {
@@ -58,6 +60,7 @@
 .ReelsContent-content::-webkit-scrollbar {
     display: none;
 }
+
 
 .avatar--rounded {
     border: 3px solid var(--blue);

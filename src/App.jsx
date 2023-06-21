@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './components/Header/Header';
 import Sidebar from './components/Sidebar/Sidebar';
-import ChatSidebar from './components/ChatSidebar';
+import ChatSidebar from './components/ChatSidebar/ChatSidebar';
 import "./App.css"
 import Tabs from './components/Tabs/Tabs';
 import CreatePost from './components/NewsFeed/CreatePost';

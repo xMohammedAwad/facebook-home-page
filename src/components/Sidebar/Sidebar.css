@@ -9,7 +9,12 @@
     margin-top: 60px;
     overflow-y: auto;
     width: 250px;
-
+}
+.sidebar::-webkit-scrollbar{
+    display: none;
+  }
+.sidebar:hover::-webkit-scrollbar{
+  display: unset;
 }
 
 
