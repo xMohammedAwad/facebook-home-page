@@ -2,7 +2,11 @@
 
 A Facebook clone built with React.js, providing a user interface that mimics the core features and functionalities of Facebook.
 <br>
-[Live oreview](https://facebook-clone-8c588.web.app/)
+<br>
+[Live preview](https://facebook-clone-8c588.web.app/)
+<br>
+<br>
+![gif](https://media.licdn.com/dms/image/D4D22AQE1xOPhhbL8dQ/feedshare-shrink_800/0/1687365046754?e=1690416000&v=beta&t=tSMIdTtkig2pNPUXTYs1_b5Yko7tR38SvbFiPXQAaOI)
 ## Table of Contents
 
 - [Installation](#installation)
