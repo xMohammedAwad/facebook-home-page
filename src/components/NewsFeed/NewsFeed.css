@@ -43,3 +43,8 @@
     padding-right: 5px;
     padding-top: 10px;
 }
+@media(max-width:500px){
+    .post__option:last-of-type{
+        display: none;
+    }
+}
