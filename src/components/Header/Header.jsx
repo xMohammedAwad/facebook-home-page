@@ -13,7 +13,7 @@ const Header = () => {
         </div>
       </form>
       <ul className="user-menu">
-        <li className="user-menu-item">
+        <li className="user-menu-item facebook-icon">
           <i class="fab fa-facebook-messenger icon "></i>
         </li>
         <li className="user-menu-item">
@@ -22,7 +22,6 @@ const Header = () => {
         <li className="user-menu-item">
           <img className="icon" src={avatar} alt="" />
           <i className="fas fa-chevron-down"></i>
-
        </li>
 
 

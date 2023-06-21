@@ -19,6 +19,7 @@ const CreatePost = () => {
                     <img src="/public/assets/feeling.png" alt="photo/video" className="post-options__img feeling/activity-img" />
                     <strong>Feeling/activity</strong>
                 </li>
+
             </ul>
         </div>
     );
