@@ -8,15 +8,15 @@ const CreatePost = () => {
             </div>
             <ul className="post__options">
                 <li className="post__option post__live-video">
-                    <img src="/public/assets/live.png" alt="post__live-video" className="post-options__img live-img" />
+                    <img src="/assets/live.png" alt="post__live-video" className="post-options__img live-img" />
                     <strong>Live video</strong>
                 </li>
                 <li className="post__option post__photo/video">
-                    <img src="/public/assets/photo.png" alt="photo/video" className="post-options__img photo/video-img" />
+                    <img src="/assets/photo.png" alt="photo/video" className="post-options__img photo/video-img" />
                     <strong>Photo /video</strong>
                 </li>
                 <li className="post__option post__feeling/activity">
-                    <img src="/public/assets/feeling.png" alt="photo/video" className="post-options__img feeling/activity-img" />
+                    <img src="/assets/feeling.png" alt="photo/video" className="post-options__img feeling/activity-img" />
                     <strong>Feeling /activity</strong>
                 </li>
 
