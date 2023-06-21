@@ -3,14 +3,23 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 500;
 }
-
+:root{
+    --white:#fff;
+    --white-700:rgb(228, 230, 235);
+    --black:#000;
+    --black-700: #18191A;
+    --black-400:#242526;
+    --black-200:#63636385;
+    --black-100:#3A3B3C;
+    --blue:#4292FF;
+}
 body {
     margin: 0;
-    color: rgb(228, 230, 235);
+    color: var(--white-700);
 }
 .home-page{
     padding: 0.1px;
-    background-color: #18191A;
+    background-color: var(--black-700)
 }
 .content-wrapper {
     display: grid;

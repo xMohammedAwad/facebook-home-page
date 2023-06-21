@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import SidebarItem from './SidebarItem';
-import Footer from '../Footer';
+import Footer from './Footer';
 import './Sidebar.css';
 
 const Sidebar = () => {

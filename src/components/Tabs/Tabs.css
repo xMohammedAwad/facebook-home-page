@@ -1,5 +1,5 @@
 .tabs {
-    background-color: #242526;
+    background-color: var(--black-400);
     margin-top: 1.5em;
     border-radius: 10px;
     width: 100%;
@@ -29,12 +29,12 @@
 }
 
 .tab:hover {
-    background-color: #3A3B3C;
+    background-color: var(--black-100);
 }
 
 .tab-list .active {
-    color: #2E89FF;
-    border-bottom: 2px solid #2E89FF;
+    color: var(--blue);
+    border-bottom: 2px solid var(--blue);
 }
 
 .active:hover {
@@ -60,7 +60,7 @@
 }
 
 .avatar--rounded {
-    border: 3px solid #2E89FF;
+    border: 3px solid var(--blue);
     width: 40px;
     height: 40px;
 }
@@ -140,14 +140,14 @@
     top: 55%;
     left: 50%;
     transform: translate(-50%, 50%);
-    color: #fff;
-    background-color: #2E89FF;
+    color: var(--white);
+    background-color: var(--blue);
     width: 40px;
     height: 40px;
     border-radius: 50%;
     text-align: center;
     padding-top: 10px;
-    border: 3px solid #242526;
+    border: 3px solid var(--black-400)
 }
 
 .fa-play {
