@@ -46,7 +46,14 @@ body {
     display: grid;
     grid-template-columns: 1.125fr 1fr;
     margin-top: 3.75em;
-    margin-left: 430px;
+    margin-left: 400px;
+}
+@media (max-width:1050px) {
+    .content-wrapper {
+        margin-left: 350px;
+        margin-right: 70px;
+    }
+    
 }
 
 @media (max-width:850px) {
